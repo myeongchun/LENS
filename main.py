@@ -193,7 +193,6 @@ def main():
         default='config.json',
         help='Path to config.json (default: config.json)'
     )
-    # --device 인자 추가
     parser.add_argument(
         '--device', 
         type=str, 
@@ -209,8 +208,7 @@ def main():
     
     full_config = load_config(args.config)
     global_config = full_config['global_settings']
-    
-    # Device 할당 로직 수정
+
     if torch.cuda.is_available():
         device = torch.device(f"cuda:{args.device}")
     else:
