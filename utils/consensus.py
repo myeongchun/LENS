@@ -20,5 +20,6 @@ def compute_consensus(all_errors, all_densities, all_betas, epsilon=1e-10):
     W_raw = alphas * Ratio_Inv
     W_norm = W_raw / (np.sum(W_raw, axis=1, keepdims=True) + epsilon)
     final_score = np.sum(W_norm * errors_stack, axis=1)
+    #final_score = np.sum(alphas * errors_stack, axis=1)
     
     return final_score
