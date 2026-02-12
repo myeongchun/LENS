@@ -2,7 +2,7 @@
 Boosting Autoencoders via **L**atent-d**EN**sity aware **S**ampling for Unsupervised Anomaly Detection
 
 ## Abstract
-This study aims to construct a boosting ensemble of autoencoders that handles diverse data patterns and are robust to data contamination.
+This paper aims to construct a boosting ensemble of autoencoders that handles diversity in data and are robust to data contamination.
 
 ## Dataset description
 <img width="373" height="932" alt="image" src="https://github.com/user-attachments/assets/9dfb86ce-5e50-432e-a43d-8a2affa55a31" />
