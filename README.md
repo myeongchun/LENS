@@ -10,3 +10,12 @@ This study aims to construct a boosting ensemble of autoencoders that handles di
 
 ## Running LENS
 In this paper, we utilized 47 tabular benchmark datasets from ADBench: [https://github.com/Minqi824/ADBench/tree/main](https://github.com/Minqi824/ADBench.git)
+
+To run **LENS**, follow commands:
+```bash
+python main.py --dataset "dataset name" --device 0
+```
+If you want to run the model on all available datasets, enter all as the dataset name:
+```bash
+python main.py --dataset all --device 0
+```
