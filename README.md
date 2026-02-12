@@ -1,5 +1,5 @@
 # LENS
-Boosting Autoencoders via **L**atent-d**en**sity aware **S**ampling for Unsupervised Anomaly Detection
+Boosting Autoencoders via **L**atent-d**EN**sity aware **S**ampling for Unsupervised Anomaly Detection
 
 ## Abstract
 This study aims to construct a boosting ensemble of autoencoders that handles diverse data patterns and are robust to data contamination.
