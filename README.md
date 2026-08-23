@@ -7,9 +7,6 @@ Implementation of **L**earning an **E**nsemble of **N**ormality **S**ubspaces fo
 This paper proposes a boosting-based ensemble framework that represents diverse notions of normality across multiple latent spaces to mitigate the *information loss* inherent in dimensionality reduction. During latent-space construction, LENS quantifies the contribution of each sample using a *latent leverage score*. Samples with disproportionately high contributions are excluded through *leverage-aware filtering*, while *reliability-aware weighting* regulates the boosting process by assigning greater reliability to samples whose contributions remain stable across successive latent spaces. By integrating these mechanisms, LENS captures heterogeneous normal patterns through complementary latent representations for robust unsupervised anomaly detection.
 
 ## Dataset Description
-
-<img width="373" height="932" alt="Dataset description" src="https://github.com/user-attachments/assets/9dfb86ce-5e50-432e-a43d-8a2affa55a31" />
-
 We use 57 benchmark datasets from [ADBench](https://github.com/Minqi824/ADBench.git).
 
 Download the datasets and place the NPZ files in the `datasets/` directory. Each file must contain `X` and `y` arrays.
