@@ -9,7 +9,7 @@ This paper proposes a boosting-based ensemble framework that represents diverse 
 ## Dataset Description
 We use 57 benchmark datasets from [ADBench](https://github.com/Minqi824/ADBench.git).
 
-Download the datasets and place the NPZ files in the `datasets/` directory. Each file must contain `X` and `y` arrays.
+Download the datasets and place the NPZ files in the `datasets/` directory.
 
 ## Requirements
 
