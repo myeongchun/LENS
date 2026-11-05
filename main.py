@@ -1,10 +1,17 @@
 import argparse
 import json
+import os
 import random
 from pathlib import Path
 
+os.environ["CUBLAS_WORKSPACE_CONFIG"] = ":4096:8"
+
 import numpy as np
 import torch
+
+torch.set_float32_matmul_precision("high")
+torch.use_deterministic_algorithms(True)
+torch.set_num_threads(4)
 
 from backends.device import resolve_device
 from backbone.PCA import weighted_pca
