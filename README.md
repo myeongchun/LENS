@@ -8,6 +8,9 @@
   <img src="https://img.shields.io/badge/WSDM-2027-2563eb?style=flat-square" alt="WSDM 2027">
   <img src="https://img.shields.io/badge/Python-3.10-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10">
   <img src="https://img.shields.io/badge/PyTorch-2.6-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch 2.6">
+  <a href="https://myeongchun.github.io/LENS/">
+  <img src="https://img.shields.io/badge/Website-0F766E?style=flat-square" alt="Website">
+</a>
 </p>
 
 <p align="center">
