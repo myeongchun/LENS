@@ -1,8 +1,7 @@
 <h1 align="center">LENS</h1>
 
 <h3 align="center">
-  Learning an Ensemble of Normality Subspaces<br>
-  for Unsupervised Anomaly Detection
+  Learning an Ensemble of Normality Subspaces for Unsupervised Anomaly Detection
 </h3>
 
 <p align="center">
